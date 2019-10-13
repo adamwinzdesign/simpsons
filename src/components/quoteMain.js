@@ -8,10 +8,10 @@ const QuoteMain = () => {
   const [quotes, setQuotes] = useState([]);
 
   useEffect(() => {
-    axios.get('')
+    axios.get('https://thesimpsonsquoteapi.glitch.me/quotes?count=3')
       .then(response => {
-        console.log(response);
-        setQuotes(response);
+        console.log(response.data[0]);
+        setQuotes(response.data);
       })
       .catch(error => {
         console.log(error);
