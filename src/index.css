@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.quoteMain-contain {
+  background-color: #F9DD01;
+}
+
+.quoteMain-contain h1 {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.card-contain {
+  width: 30%;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.quoteText {
+  font-size: 2rem;
+}

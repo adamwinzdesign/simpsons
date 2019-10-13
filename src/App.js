@@ -1,6 +1,7 @@
 import React from 'react';
 import QuoteMain from './components/QuoteMain';
 import './App.css';
+import '../src/index.css';
 
 function App() {
   return (
