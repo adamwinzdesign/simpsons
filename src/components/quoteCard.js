@@ -7,12 +7,12 @@ import '../index.css';
 
 const QuoteCard = (props) => {
   return (
-    <div className = 'card-contain' key = '{props.id}'>
+    <div className = 'card-contain' key = '{props.key}'>
       <Card body inverse color="dark">
         <CardBody>
-          <CardTitle>Character Name: {props.character}</CardTitle>
-          <CardText>Character Quote {props.quote}</CardText>
-          <CardText>Some Other Stuff</CardText>
+          <CardTitle>Character: {props.character}</CardTitle>
+          <CardText>Character Quote: "{props.quote}"</CardText>
+          <img src = {props.image} alt = 'quoted character'/>
         </CardBody>
       </Card>
 
